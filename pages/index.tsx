@@ -14,7 +14,7 @@ export default function Home() {
         />
         <meta property="og:image" content="/favicon.ico" />
         <meta property="og:url" content="https://tejasagarwal.vercel.app" />
-        <meta name="theme-color" content="#fc3eaa" />
+        <meta name="theme-color" content="#ff69ce" />
       </Head>
       <main>
         <section className={Style.top}>
