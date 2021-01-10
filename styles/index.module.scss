@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&display=swap");
-// @import "compass/css3";
+
+@font-face {
+  font-family: 'Choco Letter';
+  src: url('../assets/fonts/Choco Letter.ttf') format('truetype');
+}
 
 $pink-primary: #fe007e;
 $pink-secondary: #fc3eaa;

@@ -10,7 +10,7 @@ export default function Home() {
       <main>
         <section className={Style.top}>
           <div className={Style.parallaximage}></div>
-          <h1>Tejas Agarwal</h1>s
+          <h1>Tejas Agarwal</h1>
         </section>
         <section className={Style.info}>
           {/* About Me section */}
@@ -55,7 +55,7 @@ export default function Home() {
             , a very simple Discord clone made by me.
             <br />
             <span className={Style.green}>
-              <a href="https://github.com/tejasag/tejasag.github.io">
+              <a href="https://github.com/tejasag/webpage">
                 My Website
               </a>
             </span>
