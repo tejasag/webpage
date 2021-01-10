@@ -6,6 +6,15 @@ export default function Home() {
     <div>
       <Head>
         <title>Tejas Agarwal</title>
+        <link rel="icon" href="/favicon.ico" />
+        <meta property="og:title" content="Tejas Agarwal" />
+        <meta
+          property="og:description"
+          content="Just your average 13 year old full stack developer."
+        />
+        <meta property="og:image" content="/favicon.ico" />
+        <meta property="og:url" content="https://tejasagarwal.vercel.app" />
+        <meta name="theme-color" content="#fc3eaa" />
       </Head>
       <main>
         <section className={Style.top}>
@@ -55,9 +64,7 @@ export default function Home() {
             , a very simple Discord clone made by me.
             <br />
             <span className={Style.green}>
-              <a href="https://github.com/tejasag/webpage">
-                My Website
-              </a>
+              <a href="https://github.com/tejasag/webpage">My Website</a>
             </span>
             , the website you are looking at right now. lol
             <br />
