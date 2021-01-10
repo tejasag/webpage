@@ -1,0 +1,17 @@
+@import "index.module.scss";
+
+* {
+  padding: 0;
+  margin: 0;
+  border: none;
+  outline: none;
+  font: inherit;
+  font-size: 100%;
+  text-decoration: none;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+a {
+  color: $green;
+}

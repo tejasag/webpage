@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&display=swap");
+// @import "compass/css3";
+
+$pink-primary: #fe007e;
+$pink-secondary: #fc3eaa;
+$pink-light: #ff69ce;
+$black-primary: #050505;
+$black-light: #1c1c1bff;
+$black-secondary: #171717;
+$green: #5fdf9a;
+
+$choco: "Choco Letter";
+$default: "Poppins";
+$code: "Cascadia code";
+$handwriting: "Pacifico";
+
+//  COLOR PALETTE:  https://media.discordapp.net/attachments/770615392157827072/787002249963765800/1argGXNj0D.png?width=1200&height=498
+
+.top {
+  font-family: "Poppins", "Helvetica Neue", Helvetica, Arial sans-serif;
+  font-size: 16px;
+  background-color: $black-secondary;
+
+  h1 {
+    left: 50%;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    font-size: 9em;
+    font-family: $choco;
+    color: $black-secondary;
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+
+
+}
+
+
+
+.green {
+  color: $green;
+}
+
+.parallaximage {
+  background-image: url("https://www.wallpapertip.com/wmimgs/28-289589_aesthetic-cherry-blossom-background.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  filter: blur(5px);
+}
+
+
+.info {
+  min-height: 100vh;
+  background-color: $black-secondary;
+  font-family: "Poppins";
+  padding-top: 7vh;
+
+  h1{
+    color: $pink-secondary;
+    margin-left: 10%;
+    font-weight: bold;
+    font-size: 4em;
+  }
+
+ 
+
+  h4 {
+    color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 1.75em;
+    padding-bottom: 7vh;
+
+    
+  }
+  h4:nth-child(1){
+    font-size: 1.5em;
+  }
+}
+
+
+
+
+.footer {
+  background-color: $black-light;
+  width: 100%;
+  min-height: 5vh;
+  font-family: "Poppins";
+  display: flex;
+  justify-content: center;
+
+  span {
+    font-size: 1em;
+    color: white;
+    padding: 1vh;
+    
+  text-align: center !important;
+  }
+}
+
+
+
+
+@media (max-width: 530px){
+  .top {
+    h1 {
+      font-size: 5em;
+    }
+  }
+
+  .info {
+    h1 {
+      font-size: 3em;
+    }
+
+    h4 {
+      font-size: 1.5em;
+    }
+  }
+}
+
