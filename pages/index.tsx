@@ -66,28 +66,13 @@ export default function Home() {
             <span className={Style.green}>
               <a href="https://github.com/tejasag/webpage">My Website</a>
             </span>
-            , the website you are looking at right now. lol
+            , the website you are looking at right now.
             <br />
             <br />I have recently started doing open source projects so stay
             tuned for more coming soon 😉
           </h4>
 
-          {/* Social Media
-          <h1>🌐 Social Media:</h1>
-          <h4>
-            {" "}
-            <span className={Style.green}>
-              <a href="https://github.com/tejasag/">Github</a>
-            </span>
-            , GitHub, Inc. is a subsidiary of Microsoft which provides hosting
-            for software development and version control using Git.
-            <br />
-            <span className={Style.green}>
-              <a href="https://discord.com/users/771687332734173185">Discord</a>
-            </span>
-            , Discord is an American VoIP, instant messaging and digital
-            distribution platform designed for creating communities.
-          </h4> */}
+  
         </section>
         <section className={Style.footer}>
           <span>
