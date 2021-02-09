@@ -23,22 +23,21 @@ export default function Home() {
         </section>
         <section className={Style.info}>
           {/* About Me section */}
-          <h1>📜 About me:</h1>
+          <h1>About me:</h1>
           <h4>
             Hi! I am <span className={Style.green}>Tejas Agarwal</span>, a 13
             year old from India who loves to code in his free time. I've been
             developing for about
             <span style={{ color: "#f5d59a" }}> a year</span> now and learning
-            more every day! I have experience in{" "}
+            more every day! I am a Typescript & Rust enthusiast but overall have experience in{" "}
             <span className={Style.green}>
-              HTML, CSS, Javascript/Typescript {"(Node.js and Deno)"}, Python,
-              Java, SQL,{" "}
+              HTML, CSS, Javascript/Typescript {"(Node.js and Deno)"}, Rust, Python,
+              Java, Kotlin, SQL,{" "}
             </span>{" "}
             some
-            <span className={Style.green}> Rust</span> and
+            <span className={Style.green}> C/C++</span> and
             <span className={Style.green}> C#</span>, and learning{" "}
-            <span className={Style.green}>C/C++</span> along with
-            <span className={Style.green}> Unreal Engine</span>
+            <span className={Style.green}> Golang</span>
           </h4>
 
           {/* Projects Section */}
@@ -63,7 +62,7 @@ export default function Home() {
             </span>
             , a very simple Discord clone made by me.
             <br />
-            <span className={Style.green}>
+	<span className={Style.green}>
               <a href="https://github.com/tejasag/webpage">My Website</a>
             </span>
             , the website you are looking at right now.
