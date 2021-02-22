@@ -32,7 +32,7 @@ $handwriting: "Pacifico";
     top: 50%;
     transform: translate(-50%, -50%);
     width: 100%;
-    font-size: 9em;
+    font-size: calc(30px + 9vw);
     font-family: $choco;
     color: $black-secondary;
     background-color: rgba(255, 255, 255, 0.3);
@@ -72,7 +72,12 @@ $handwriting: "Pacifico";
     font-size: 4em;
   }
 
- 
+ h2 {
+   color: $pink-secondary;
+   margin-left: 10%;
+   font-weight: bold;
+   font-size: 3em;
+ }
 
   h4 {
     color: white;
@@ -81,7 +86,10 @@ $handwriting: "Pacifico";
     font-size: 1.75em;
     padding-bottom: 7vh;
 
-    
+    .Icon {
+      max-width: 70px;
+      margin: 0 5px;
+    }
   }
   h4:nth-child(1){
     font-size: 1.5em;
@@ -112,20 +120,29 @@ $handwriting: "Pacifico";
 
 
 @media (max-width: 530px){
-  .top {
-    h1 {
-      font-size: 5em;
-    }
-  }
+  //.top {
+  //  h1 {
+  //    font-size: 5em;
+  //  }
+  //}
 
   .info {
     h1 {
       font-size: 3em;
     }
 
+    h2 {
+      font-size: 2em;
+    }
+
     h4 {
       font-size: 1.5em;
+
+      br {
+        margin-bottom: 2vh;
+      }
     }
   }
 }
+
 
