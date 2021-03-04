@@ -21,8 +21,18 @@ export default function Home() {
                 <section className={Style.top}>
                     <div className={Style.parallaximage}></div>
                     <h1>Tejas Agarwal</h1>
+
                 </section>
                 <section className={Style.info}>
+                    <div id="webring-wrapper" className={Style.webring}>
+                        <a href="https://webring.hackclub.com/" id="previousBtn" className={Style.webringAnchor}
+                           title="Previous">‹</a>
+                        <a href="https://webring.hackclub.com/" className={Style.webringLogo} title="Hack Club Webring"
+                        ></a>
+                        <a href="https://webring.hackclub.com/" id="nextBtn" className={Style.webringAnchor}
+                           title="Next">›</a>
+                        <script src="https://webring.hackclub.com/public/embed.min.js"></script>
+                    </div>
                     {/* About Me section */}
                     <h1>About me:</h1>
                     <h4>
@@ -30,7 +40,7 @@ export default function Home() {
                         year old from India who loves to code in his free time. I've been
                         developing for about
                         <span style={{color: "#f5d59a"}}> a year</span> now and learning more every day!
-                   </h4>
+                    </h4>
                     <h2>Technologies I use:</h2>
                     <h4>
                         <img className={Style.Icon} src="/icons/html.svg" alt="HTML"/>
@@ -92,16 +102,28 @@ export default function Home() {
                         <span className={Style.green}><a href="https://github.com/tejasag/nessie">Nessie</a></span>,
                         (W.I.P.) The chat app you needed.
                         <br/>
-                   </h4>
+                    </h4>
                     <h1>Hackathons:</h1>
-                    <h2><a href="https://thetahacks.tech">ThetaHacks 1</a> </h2>
+                    <h2><a href="https://thetahacks.tech">ThetaHacks 1</a></h2>
                     <h4>
-                            Participated along with awesome teammates, <a
-                                href="https://github.com/willdoescode">William Lane</a>, <a href="https://github.com/aidenybai">Aiden Bai</a>, <a
-                        href="https://github.com/melindachang">Melinda Chang</a> and won <span style={{color: "#f5d59a"}}>The Organizers' Choice Award</span> with the project <a
+                        Participated along with awesome teammates, <a
+                        href="https://github.com/willdoescode">William Lane</a>, <a href="https://github.com/aidenybai">Aiden
+                        Bai</a>, <a
+                        href="https://github.com/melindachang">Melinda Chang</a> and won <span
+                        style={{color: "#f5d59a"}}>The Organizers' Choice Award</span> with the project <a
                         href="https://github.com/motifapp">Motif.</a>
+                    </h4>
+                    <h2><a href="https://angelhacks.org">AngelHacks 2.0</a></h2>
+                    <h4>
+                        Rocked again with, <a
+                        href="https://github.com/willdoescode">William Lane</a>, <a href="https://github.com/aidenybai">Aiden
+                        Bai</a>, <a
+                        href="https://github.com/melindachang">Melinda Chang</a> with the project <a
+                        href="https://github.com/aplus-app">Aplus</a>
 
                     </h4>
+
+
                 </section>
                 <section className={Style.footer}>
           <span>
