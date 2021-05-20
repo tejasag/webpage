@@ -18,9 +18,9 @@ export default function Home() {
                 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.9.0/devicon.min.css"/>
             </Head>
             <main>
-                <div styles={{ height: "100vh", backgroundColor: "#2c2c2c", width: "100vw", display: "flex", alignItems: "center", justifyContent: "center"}}>
-                    <h1 styles={{ color: "#eb6157",  fontSize:"5rem" }}>Website under construction! Please check in later :D</h1>
-                    <span styles={{ color: "white", fontSize: "1rem" }}>Last updated: 20th May 2021</span>
+                <div style={{ height: "100vh", backgroundColor: "#2c2c2c", width: "100vw", display: "flex", alignItems: "center", justifyContent: "center"}}>
+                    <h1 style={{ color: "#eb6157",  fontSize:"5rem" }}>Website under construction! Please check in later :D</h1>
+                    <span style={{ color: "white", fontSize: "1rem" }}>Last updated: 20th May 2021</span>
                 </div>
             </main>
         </div>
